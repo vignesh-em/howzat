@@ -1,0 +1,24 @@
+.header-header {
+    display: flex;
+    background: black;
+    color: azure;
+}
+
+.header-app-name {
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-container {
+    margin: auto 20px auto auto;
+}
+
+.ul-no-bullets {
+    display: flex;
+    list-style-type: none;
+}
+
+.li-nav-bar-item {
+    margin-left: 10px;
+}
