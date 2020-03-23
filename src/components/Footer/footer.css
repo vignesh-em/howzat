@@ -1,0 +1,11 @@
+.footer-footer {
+    display: flex;
+    background: black;
+    color: azure;
+}
+
+.p-copyright-text {
+    text-align: end;
+    font-size: xx-small;
+    margin: 20px;
+}
