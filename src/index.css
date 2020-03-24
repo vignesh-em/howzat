@@ -10,6 +10,6 @@ body {
 #root {
     margin: 0 auto 0 auto;
     width: 1200px;
-    height: 100px;
+    height: auto;
     display: grid;
 }

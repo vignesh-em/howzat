@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Viewer from "./viewer/Viewer";
+import Auctioneer from "./auctioneer/Auctioneer";
 
 function App() {
     return (
-        <Viewer/>
+        <Auctioneer/>
     );
 }
 
