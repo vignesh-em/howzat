@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import "./teams.css"
+import "../CurrentItem/currentitem.css"
 
 class TeamView extends Component {
     render() {

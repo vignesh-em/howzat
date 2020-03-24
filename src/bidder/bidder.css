@@ -1,0 +1,12 @@
+.container-bidder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: orange;
+    justify-content: center;
+}
+
+.bidding-area {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import Auctioneer from "./auctioneer/Auctioneer";
+import Bidder from "./bidder/Bidder";
 
 function App() {
     return (
-        <Auctioneer/>
+        <div>
+            <Bidder/>
+        </div>
     );
 }
 
