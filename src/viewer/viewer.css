@@ -7,13 +7,6 @@
 
 }
 
-
-.container-main {
-    background-color: darkgray;
-    grid-column: 1 / 4;
-    height: 800px;
-}
-
 .container-side-info {
     grid-column: 4 / -1;
     height: fit-content;
