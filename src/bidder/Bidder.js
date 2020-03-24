@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import "./bidder.css"
 import CurrentItem from "../components/CurrentItem/CurrentItem";
 import TeamView from "../components/Teams/TeamView";
+import "../auctioneer/auctioneer.css"
 
 class Bidder extends Component {
     render() {
