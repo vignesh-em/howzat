@@ -1,0 +1,51 @@
+.current-player-first-name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.current-player-name-container {
+    margin: 0.5em;
+}
+
+.current-player-last-name {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-direction: column;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.stat-label {
+    order: 2;
+    margin: 0 0.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.stat-value {
+    order: 1;
+    margin: 0 0.5em;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.price-tag {
+    background-color: #ef4123;
+    color: #ffffff;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.75em;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    align-self: center;
+}

@@ -2,22 +2,33 @@ import React, {Component} from "react";
 import Header from "../components/Header/Header";
 import "./viewer.css"
 import Footer from "../components/Footer/Footer";
-import CurrentItem from "../components/CurrentItem/CurrentItem";
-import Teams from "../components/Teams/Teams";
+import CurrentPlayer from "../components/CurrentPlayer/CurrentPlayer";
 
 class Viewer extends Component {
     render() {
         return (
-            <div>
+            <>
                 <Header/>
-                <div className='container-viewer'>
-                    <Teams/>
-                    <div className='container-side-info'>
-                        <CurrentItem/>
+                <main className="main-content">
+                    <div className="teams-container">
+                        {/*
+                        <Team/>
+                        <Team/>
+                        <Team/>
+                        <Team/>
+                        */}
                     </div>
-                </div>
+                    <div className="live-widget-container">
+                        <article id="current-player-container">
+                            <CurrentPlayer/>
+                        </article>
+                        <article id="current-status-container">
+                            {/*<Status />*/}
+                        </article>
+                    </div>
+                </main>
                 <Footer/>
-            </div>
+            </>
         );
     }
 }
