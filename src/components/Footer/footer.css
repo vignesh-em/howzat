@@ -1,11 +1,12 @@
-.footer-footer {
-    display: flex;
-    background: black;
-    color: azure;
+#app-footer {
+    background: #00155c;
+    padding: 1em;
 }
 
-.p-copyright-text {
-    text-align: end;
-    font-size: xx-small;
-    margin: 20px;
+.copyright-text {
+    color: #ffffff;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
 }
