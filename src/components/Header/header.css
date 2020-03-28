@@ -1,24 +1,51 @@
-.header-header {
+#header-main {
     display: flex;
-    background: black;
-    color: azure;
+    justify-content: space-between;
+    padding: 0 1em;
+    background: #00155c;
 }
 
-.header-app-name {
-    font-size: xx-large;
-    margin-left: 20px;
-    margin-right: 20px;
+#nav-bar {
+    display: flex;
+    align-items: center;
 }
 
-.nav-container {
-    margin: auto 20px auto auto;
-}
-
-.ul-no-bullets {
+.header-list {
     display: flex;
     list-style-type: none;
 }
 
-.li-nav-bar-item {
-    margin-left: 10px;
+.header-nav-item {
+    font-size: 1.5rem;
+    margin: 0 1em;
+}
+
+.header-nav-item:last-child {
+    margin: 0;
+}
+
+#app-title {
+    font-size: 2rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+#app-subtitle {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#title-container {
+    margin: 2em 0;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.8rem;
 }

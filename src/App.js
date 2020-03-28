@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Bidder from "./bidder/Bidder";
+import Viewer from "./viewer/Viewer";
 
 function App() {
     return (
         <div>
-            <Bidder/>
+            <Viewer/>
         </div>
     );
 }
