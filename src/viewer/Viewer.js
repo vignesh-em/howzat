@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import "./viewer.css"
 import Footer from "../components/Footer/Footer";
 import CurrentPlayer from "../components/CurrentPlayer/CurrentPlayer";
+import Status from "../components/Status/Status";
 
 class Viewer extends Component {
     render() {
@@ -23,7 +24,7 @@ class Viewer extends Component {
                             <CurrentPlayer/>
                         </article>
                         <article id="current-status-container">
-                            {/*<Status />*/}
+                            <Status/>
                         </article>
                     </div>
                 </main>

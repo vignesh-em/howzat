@@ -4,9 +4,7 @@ import Viewer from "./viewer/Viewer";
 
 function App() {
     return (
-        <div>
-            <Viewer/>
-        </div>
+        <Viewer/>
     );
 }
 
