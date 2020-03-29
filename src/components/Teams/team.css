@@ -21,6 +21,8 @@
 .team {
     width: 100%;
     margin: 0.1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .squad-list {
@@ -35,4 +37,18 @@
     text-align: center;
     text-transform: capitalize;
     font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+.remaining-balance {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    width: fit-content;
+    align-self: center;
+    color: #000000;
+    border-radius: 0.2rem;
+    background-color: #ffb605;
 }

@@ -5,7 +5,8 @@ class Team extends Component {
 
     state = {
         players: [],
-        teamName: "Chennai Super Kings"
+        teamName: "",
+        availableBalance: 0
     }
 
     componentDidMount() {
@@ -55,19 +56,22 @@ class Team extends Component {
                     firstName: "Deepak",
                     lastName: "Chahar"
                 }
-            ]
+            ],
+            teamName: "Chennai Super Kings",
+            availableBalance: 2400
         };
         this.setState(newState)
-        console.log(this.state.players)
     }
 
     render() {
+        const currentState = this.state;
         return (
             <section className="team">
-                <h4 className="team-name">{this.state.teamName}</h4>
+                <h4 className="team-name">{currentState.teamName}</h4>
+                <div className="remaining-balance">Balance: &#8377; {currentState.availableBalance}L</div>
                 <ul className="squad-list">
                     {
-                        this.state.players.map((player) => {
+                        currentState.players.map((player) => {
                             return this.getPlayerComponent(player);
                         })
                     }
