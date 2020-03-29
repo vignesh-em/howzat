@@ -1,0 +1,38 @@
+.squad-item-container {
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+    border: 1px #ffffff solid;
+    flex-direction: column;
+}
+
+.squad-item-fn {
+    font-size: 1rem;
+    margin: 0.1em auto 0 auto;
+}
+
+.squad-item-ln {
+    font-size: 1rem;
+    margin: 0 auto 0.1em auto;
+    font-weight: bold;
+}
+
+.team {
+    width: 100%;
+    margin: 0.1em;
+}
+
+.squad-list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.team-name {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}

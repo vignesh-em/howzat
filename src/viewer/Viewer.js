@@ -4,6 +4,7 @@ import "./viewer.css"
 import Footer from "../components/Footer/Footer";
 import CurrentPlayer from "../components/CurrentPlayer/CurrentPlayer";
 import Status from "../components/Status/Status";
+import Team from "../components/Teams/Team";
 
 class Viewer extends Component {
     render() {
@@ -12,12 +13,10 @@ class Viewer extends Component {
                 <Header/>
                 <main className="main-content">
                     <div className="teams-container">
-                        {/*
                         <Team/>
                         <Team/>
                         <Team/>
                         <Team/>
-                        */}
                     </div>
                     <div className="live-widget-container">
                         <article id="current-player-container">
