@@ -10,7 +10,7 @@ class Viewer extends Component {
     render() {
         return (
             <>
-                <Header/>
+                <Header showNavItems="true"/>
                 <main className="main-content">
                     <div className="teams-container">
                         <Team/>

@@ -1,0 +1,36 @@
+.login-content {
+    display: flex;
+    height: 100%;
+    background: #19398a;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.login-type-chooser {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-in-up-text {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sign-in-up-text:hover {
+    cursor: pointer;
+}
+
+.login-container {
+    background: #5363bb;
+    width: 25%;
+}
+
+.sign-in-up-text-selected {
+    background: #ffb605;
+    color: #000000;
+}
