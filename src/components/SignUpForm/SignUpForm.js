@@ -11,9 +11,9 @@ const SignUpForm = () => {
 
     useEffect(() => {
         if (isSignUpClicked) {
-
+            setIsSignUpClicked(false);
         }
-    }, [isSignUpClicked])
+    }, [isSignUpClicked]);
 
     return (
         <form>
